@@ -29,5 +29,8 @@ while(True):
         else:
             new_guess += '-'
     guess = new_guess
-
     print(guess)
+    if (guess == secret):
+        break
+
+    
